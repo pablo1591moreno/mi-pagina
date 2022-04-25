@@ -18,7 +18,7 @@
 
 @media (min-width: 1024px) {
   body {
-    background-image: url(/multimedia/fondo.jpg);
+    background-image: url(multimedia/fondo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -237,7 +237,7 @@
 
 @media (min-width: 480px) and (max-width: 1023px) {
   body {
-    background-image: url(/multimedia/fondo.jpg);
+    background-image: url(multimedia/fondo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -323,7 +323,7 @@
   .nav-menu {
     flex-direction: column;
     align-items: center;
-    background-image: url(/multimedia/fondo.jpg);
+    background-image: url(multimedia/fondo.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -494,7 +494,7 @@
 
 @media (max-width: 479px) {
   body {
-    background-image: url(/multimedia/fondo.jpg);
+    background-image: url(multimedia/fondo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -585,7 +585,7 @@
   .nav-menu {
     flex-direction: column;
     align-items: center;
-    background-image: url(/multimedia/fondo.jpg);
+    background-image: url(multimedia/fondo.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
