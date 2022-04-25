@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pablo1591moreno/mi-pagina-.git"
+    "url": "git+https://github.com/pablo1591moreno/mi-pagina.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pablo1591moreno/mi-pagina-/issues"
+    "url": "https://github.com/pablo1591moreno/mi-pagina/issues"
   },
-  "homepage": "https://github.com/pablo1591moreno/mi-pagina-#readme"
+  "homepage": "https://github.com/pablo1591moreno/mi-pagina#readme"
 }
