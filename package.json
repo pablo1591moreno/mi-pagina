@@ -1,0 +1,19 @@
+{
+  "name": "mipagina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo1591moreno/mi-pagina-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo1591moreno/mi-pagina-/issues"
+  },
+  "homepage": "https://github.com/pablo1591moreno/mi-pagina-#readme"
+}
