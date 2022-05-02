@@ -1,0 +1,166 @@
+@mixin fondo {
+    
+    background-image: url(/multimedia/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*---------------HEADER-----------------*/
+
+@mixin titulos ($espacio, $size) {
+
+    letter-spacing: $espacio;
+    margin: 0px;
+    font-family: $tipografiaTitulo;
+    font-size: $size;
+
+}
+
+/*------------------INDEX GRID----------------*/
+
+@mixin gridsIndex ($columnas, $fontS, $fonSParrafo, $margen, $bgSize) {
+
+    display: grid;
+    grid-template-columns: $columnas;
+    height: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    .gridImg {
+        box-shadow: $sombras;
+        background-size: $bgSize;
+        background-position: center;
+        border-radius: 10px;
+
+    }
+
+    .gridText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        box-shadow: $sombras;
+        background-color: $fondosTexto;
+        border-radius: 10px;
+        padding: 30px;
+
+
+        .tituloIndex {
+            font-size: $fontS;
+            margin: $margen;
+            font-weight: bolder
+        }
+
+        .parrafoIndex {
+            font-size: $fonSParrafo;
+            margin: $margen;
+        }
+
+    }
+}
+
+/*------------------IMAGENES---------------*/
+
+@mixin imagenes {
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: $sombras;
+}
+
+
+/*-------------------ANIMACION-----------------*/
+
+@mixin animacion {
+
+    animation-name: nombres;
+    animation-duration: 2s;
+}
+
+@keyframes nombres {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*---------------PAGINA TRABAJO---------------*/
+
+@mixin trabajo ($paddTrabajo, $tituloFontS, $paddfondo, $fondoAncho, $texto2Font) {
+
+    .tituloTrabajo {
+        padding: $paddTrabajo;
+        font-size: $tituloFontS;
+    }
+
+    .fondosTexto {
+        box-shadow: $sombras;
+        background-color: $fondosTexto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding: $paddfondo;
+        width: $fondoAncho;
+
+        .trabajosTexto1 {
+            font-weight: bolder
+        }
+
+        .trabajosTexto2 {
+            font-size: $texto2Font;
+        }
+    }
+}
+
+@mixin videos {
+
+    margin: 5px 0;
+    border-radius: 10px;
+    box-shadow: $sombras;
+
+}
+
+/*---------------PREMIOS--------------------*/
+
+@mixin premios ($paddPremio1, $anchoPremio, $paddPremio) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    height: 150px;
+    padding: $paddPremio1;
+    margin: 30px 0 30px 0;
+    text-align: center;
+
+    .gridPremio1 {
+        display: grid;
+        width: $anchoPremio;
+        box-shadow: $sombras;
+        background-color: $fondosTexto;
+        border-radius: 10px;
+        padding: $paddPremio;
+
+
+        a {
+            text-decoration: none;
+        }
+
+    }
+
+    .gridPremio2 {
+        display: grid;
+        width: $anchoPremio;
+        box-shadow: $sombras;
+        background-color: $fondosTexto;
+        border-radius: 10px;
+        padding: $paddPremio;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
