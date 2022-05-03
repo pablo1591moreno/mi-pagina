@@ -69,7 +69,6 @@
     box-shadow: $sombras;
 }
 
-
 /*-------------------ANIMACION-----------------*/
 
 @mixin animacion {
@@ -97,6 +96,7 @@
     .tituloTrabajo {
         padding: $paddTrabajo;
         font-size: $tituloFontS;
+        margin: 10px 0;
     }
 
     .fondosTexto {
@@ -164,3 +164,4 @@
         }
     }
 }
+

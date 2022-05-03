@@ -16,6 +16,7 @@ $tipografiaTitulo : "Montserrat", sans-serif;
     }
 }
 
+
 @import "todoMixin";
 
 /*-----------------------------------------------------Desktop------------------------------------------------*/
@@ -257,7 +258,7 @@ $tipografiaTitulo : "Montserrat", sans-serif;
     /*-------------------ANIMACION-----------------*/
 
     .nombreDePagina {
-        @include animacion
+        @include animacion;
     }
 
     /*------------------INDEX GRID--------------------*/
