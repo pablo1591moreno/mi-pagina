@@ -56,10 +56,8 @@ p {
 /*-----------------------------------------------------Desktop------------------------------------------------*/
 @media (min-width: 1024px) {
   body {
-    background-image: url(/multimedia/fondo.jpg);
-    background-position: center;
+    background: url(/multimedia/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   /*---------------HEADER-----------------*/
@@ -84,7 +82,7 @@ p {
     width: 90%;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
   }
 
   /*-------------------ANIMACION-----------------*/
@@ -102,7 +100,7 @@ p {
     margin-bottom: 10px;
   }
   .gridContainer1 .gridImg {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -112,7 +110,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 30px;
@@ -141,7 +139,7 @@ p {
     margin-bottom: 10px;
   }
   .gridContainer2 .gridImg {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -151,7 +149,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 30px;
@@ -179,7 +177,7 @@ p {
     margin: 10px 0;
   }
   .gridTrabajo .fondosTexto {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     margin-bottom: 10px;
@@ -199,7 +197,7 @@ p {
   iframe {
     margin: 5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
   }
 
   /*-------------------PREMIOS----------------*/
@@ -215,7 +213,7 @@ p {
   .gridPremios .gridPremio1 {
     display: grid;
     width: 60%;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 25px;
@@ -226,7 +224,7 @@ p {
   .gridPremios .gridPremio2 {
     display: grid;
     width: 60%;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 25px;
@@ -256,10 +254,8 @@ p {
 /*-----------------------------------------------------tablet------------------------------------------------*/
 @media (min-width: 480px) and (max-width: 1023px) {
   body {
-    background-image: url(/multimedia/fondo.jpg);
-    background-position: center;
+    background: url(/multimedia/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   /*---------------HEADER-----------------*/
@@ -284,7 +280,7 @@ p {
     width: 90%;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
   }
 
   /*-------------------ANIMACION-----------------*/
@@ -302,7 +298,7 @@ p {
     margin-bottom: 10px;
   }
   .gridContainer1 .gridImg {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-size: 150%;
     background-position: center;
     border-radius: 10px;
@@ -312,7 +308,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 30px;
@@ -341,7 +337,7 @@ p {
     margin-bottom: 10px;
   }
   .gridContainer2 .gridImg {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-size: 150%;
     background-position: center;
     border-radius: 10px;
@@ -351,7 +347,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 30px;
@@ -379,7 +375,7 @@ p {
     margin: 10px 0;
   }
   .gridTrabajo .fondosTexto {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     margin-bottom: 10px;
@@ -396,7 +392,7 @@ p {
   iframe {
     margin: 5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
   }
 
   /*-----------------PREMIOS----------------*/
@@ -412,7 +408,7 @@ p {
   .gridPremios .gridPremio1 {
     display: grid;
     width: 60%;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 25px;
@@ -423,7 +419,7 @@ p {
   .gridPremios .gridPremio2 {
     display: grid;
     width: 60%;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 25px;
@@ -450,10 +446,8 @@ p {
 /*----------------------------------------------------Smatphone---------------------------------------------*/
 @media (max-width: 479px) {
   body {
-    background-image: url(/multimedia/fondo.jpg);
-    background-position: center;
+    background: url(/multimedia/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   /*------------------HEADER---------------------*/
@@ -478,7 +472,7 @@ p {
     width: 90%;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
   }
 
   /*-------------------ANIMACION-----------------*/
@@ -499,7 +493,7 @@ p {
     margin-bottom: 10px;
   }
   .gridContainer1 .gridImg {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-size: 200%;
     background-position: center;
     border-radius: 10px;
@@ -509,7 +503,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 30px;
@@ -540,7 +534,7 @@ p {
     height: 170px;
   }
   .gridContainer2 .gridImg {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-size: 200%;
     background-position: center;
     border-radius: 10px;
@@ -550,7 +544,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 30px;
@@ -578,7 +572,7 @@ p {
     margin: 10px 0;
   }
   .gridTrabajo .fondosTexto {
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     margin-bottom: 10px;
@@ -595,7 +589,7 @@ p {
   iframe {
     margin: 5px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
   }
 
   .flymopVideo {
@@ -615,7 +609,7 @@ p {
   .gridPremios .gridPremio1 {
     display: grid;
     width: 90%;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 10px;
@@ -626,7 +620,7 @@ p {
   .gridPremios .gridPremio2 {
     display: grid;
     width: 90%;
-    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.418);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3176470588), -5px -5px 25px rgba(255, 255, 255, 0.0745098039);
     background-color: rgba(64, 1, 42, 0.168627451);
     border-radius: 10px;
     padding: 10px;

@@ -1,20 +1,17 @@
-@mixin fondo {
-    
-    background-image: url(/multimedia/fondo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+@mixin fondo {    
+    background: url(/multimedia/fondo.jpg) 
+    no-repeat 
+    center center fixed; 
+  background-size: cover;
 }
 
 /*---------------HEADER-----------------*/
 
 @mixin titulos ($espacio, $size) {
-
     letter-spacing: $espacio;
     margin: 0px;
     font-family: $tipografiaTitulo;
     font-size: $size;
-
 }
 
 /*------------------INDEX GRID----------------*/
