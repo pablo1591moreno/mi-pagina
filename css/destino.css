@@ -56,8 +56,7 @@ p {
 /*-----------------------------------------------------Desktop------------------------------------------------*/
 @media (min-width: 1024px) {
   body {
-    background: url(/multimedia/fondo.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(to left, #b43427, #380725);
   }
 
   /*---------------HEADER-----------------*/
@@ -254,8 +253,7 @@ p {
 /*-----------------------------------------------------tablet------------------------------------------------*/
 @media (min-width: 480px) and (max-width: 1023px) {
   body {
-    background: url(/multimedia/fondo.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(to left, #b43427, #380725);
   }
 
   /*---------------HEADER-----------------*/
@@ -446,8 +444,7 @@ p {
 /*----------------------------------------------------Smatphone---------------------------------------------*/
 @media (max-width: 479px) {
   body {
-    background: url(/multimedia/fondo.jpg) no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(to left, #b43427, #380725);
   }
 
   /*------------------HEADER---------------------*/

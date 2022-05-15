@@ -1,8 +1,5 @@
 @mixin fondo {    
-    background: url(/multimedia/fondo.jpg) 
-    no-repeat 
-    center center fixed; 
-  background-size: cover;
+    background:linear-gradient(to left, #b43427, #380725);
 }
 
 /*---------------HEADER-----------------*/
